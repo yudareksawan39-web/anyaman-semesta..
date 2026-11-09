@@ -68,3 +68,12 @@ Katalog galeri merupakan katalog eksplorasi, bukan pernyataan bahwa seluruh moti
 
 ## Pencarian Google Images
 Tautan “Cari di Google Images” membuka hasil pencarian berdasarkan nama motif dan wilayah. Google Images adalah mesin pencari, bukan API foto langsung; foto hasil pencarian tidak otomatis boleh disalin atau ditanamkan. Pastikan judul foto dan sumbernya cocok dengan motif sebelum digunakan.
+
+
+## Catatan pembaruan
+- Musik aplikasi menggunakan audio pengganti yang diberikan pengguna.
+- Galeri aplikasi difokuskan pada motif tekstil dan ragam hias Sulawesi Selatan sesuai cakupan buku.
+- Beranda diringkas menjadi empat pintasan utama: Ruang Belajar, Galeri Motif, Studio Kreasi, dan Game.
+- Menu Perjalanan Saya tidak lagi ditampilkan pada navigasi utama. Data skor/progres lokal lama tetap dipertahankan agar tidak menghapus data pengguna.
+- Setiap permainan kini dibuka pada layar permainan tersendiri dan menyediakan tombol kembali ke menu Game.
+

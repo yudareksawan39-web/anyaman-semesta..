@@ -54,3 +54,18 @@ body.dark{--bg:#101a2a;--paper:#17263a;--paper2:#20344b;--ink:#f4ead8;--muted:#c
 .motif-image.photo-unavailable img{display:none!important}
 .motif-image.photo-unavailable:after{content:'Foto asli belum tersedia';position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:18px;color:#fff5df;font-size:.85rem;font-weight:700}
 .motif-image.photo-unavailable .motif-badge{bottom:8px}
+
+/* Pembaruan: beranda ringkas dan navigasi permainan terpisah */
+.home-minimal{min-height:300px;max-width:100%;}
+.home-minimal h1{font-size:clamp(2.2rem,6vw,4rem);}
+.home-shortcuts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:20px;}
+.home-shortcuts .feature-card{grid-column:auto;min-height:160px;text-align:left;}
+.home-shortcuts .feature-card .feature-icon{margin-bottom:12px;}
+.home-book-note{display:flex;align-items:center;gap:14px;margin:22px 0 4px;padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:var(--paper);color:var(--muted);}
+.home-book-note span{color:var(--gold);font-size:1.4rem;}
+.home-book-note p{margin:0;line-height:1.6;}
+.games-menu{display:block;}
+.game-play{margin-top:12px;}
+.game-back{margin:0 0 16px;}
+@media(max-width:900px){.home-shortcuts{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:600px){.home-minimal{min-height:0;padding:26px 21px;}.home-shortcuts{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}.home-shortcuts .feature-card{padding:16px;min-height:145px;}.home-shortcuts .feature-card h3{font-size:1rem;}.home-shortcuts .feature-card p{font-size:.78rem;}.home-book-note{font-size:.85rem;}}
